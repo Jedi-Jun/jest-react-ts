@@ -106,7 +106,6 @@ exports[`<App /> renders component correctly 1`] = `
   >
     <div
       class="c1"
-      data-testid="foo"
     >
       <div
         class=""
@@ -140,7 +139,7 @@ exports[`<App /> renders component correctly 1`] = `
         <div
           class="c6"
         >
-          Del
+          Remove
         </div>
       </button>
     </div>

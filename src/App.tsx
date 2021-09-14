@@ -51,7 +51,7 @@ function App() {
 
   return (
     <Container>
-      <Contents data-testid="foo">
+      <Contents>
         <TodoListContainer data-testid="todoList">
           {todoList.map((todo, index) => (
             <ToDoItem key={index} label={todo} onDelete={() => handleDeleteTodo(index)} />
@@ -72,7 +72,7 @@ function App() {
             hoverColor="#2877ff"
           />
         </InputContainer>
-        <Button label="Del" backgroundColor="#ff1744" hoverColor="#d01440" />
+        <Button label="Remove" backgroundColor="#ff1744" hoverColor="#d01440" />
       </Contents>
     </Container>
   );
